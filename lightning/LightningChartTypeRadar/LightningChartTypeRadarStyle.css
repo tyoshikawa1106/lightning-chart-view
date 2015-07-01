@@ -1,0 +1,8 @@
+.THIS {
+    padding: 10px;
+}
+.THIS canvas {
+    width: 100% !important;
+    max-width: 800px;
+    height: auto !important;
+}

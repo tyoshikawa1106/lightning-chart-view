@@ -1,0 +1,6 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+    <ltng:require scripts="/resource/ChartViewLibrary/ChartJs/Chart.js" afterScriptsLoaded="{!c.setup}"/>
+    <div aura:id="aura-cmp">
+        <canvas aura:id="chart" id="{!globalId + '_myChart'}" width="400" height="400"/>
+    </div>
+</aura:component>
